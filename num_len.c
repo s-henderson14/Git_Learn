@@ -12,15 +12,15 @@ int	num_len(int	num)
 	while (num != 0)
 	{
 		count++;
-		num /= 10;
+		num /= 16;
 	}
 	return (count);
 }
 
-int	main()
+/*int	main()
 {
 	int	num = 453488882;
 
 	printf("%d\n", num_len(num));
 	return (0);
-}
+}*/
